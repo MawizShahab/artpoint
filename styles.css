@@ -688,7 +688,7 @@ li.social a img {
     justify-content: unset;
   }
 
- .cards-container .card {
+  .cards-container .card {
     padding: 22px;
     width: 360px !important;
     justify-content: space-around;
@@ -724,6 +724,11 @@ li.social a img {
   .info-detail a {
     font-size: 22px;
   }
+
+  .kreativne {
+    justify-content: unset;
+    gap: 45px;
+  }
 }
 
 /* Responsive with animation */
@@ -756,9 +761,202 @@ li.social a img {
     padding: 25px 25px;
   }
 
+  .nav-links {
+    gap: 45px;
+  }
+
   /* Mobile Design */
 
-  /* .body-spacing{
-    padding: ;
-  } */
+  .heading,
+  .kreativne-content .label {
+    font-size: 32px;
+  }
+
+  .hero-content {
+    gap: 35px;
+  }
+
+  .content {
+    font-size: 18.138px;
+  }
+
+  .hero-links {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hero-links a {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-container .hero {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .artporte-content .content,
+  .artporte-hero img {
+    width: 100%;
+    height: auto;
+  }
+
+  .artporte {
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .kreativne {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .kreativne-content {
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .kreativne-expanded {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .kreativne-expanded-content {
+    width: 100%;
+  }
+
+  .kreativne-expanded-content span {
+    font-size: 26px;
+  }
+
+  .brands-slider-container,
+  .programs-container,
+  .ostatne-container,
+  .contact-us-container {
+    padding: 25px 25px;
+  }
+
+  .brands .brand {
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+  }
+
+  .brand-label {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .cards-container .card {
+    padding: 15px;
+    width: 100%;
+    height: auto;
+  }
+
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .card-label span,
+  .card-content-label span,
+  .ostatne-label span {
+    font-size: 22px;
+  }
+
+  .card-content span {
+    font-size: 15px;
+  }
+
+  .card-link {
+    max-width: 100%;
+  }
+
+  .ostatne {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .ostatne-content-container {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .ostatne-subheading {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .ostatne-subheading .subcontent {
+    margin-left: 0;
+  }
+
+  .ostatne-subheading span {
+    font-size: 15px;
+  }
+
+  .ostatne-subheading .subcontent span {
+    font-size: 12.864px;
+  }
+
+  .contact-us-subcontent span,
+  .contact-us-subheading span,
+  .address-title span,
+  .info-detail a {
+    font-size: 22.138px;
+  }
+
+  .contact-us {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .contact-us-map iframe,
+  .contact-us-map {
+    width: 100%;
+    height: auto;
+  }
+
+  .address-label span,
+  .address-detail span,
+  .info-label span {
+    font-size: 12.858px;
+  }
+
+  .col-wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footer-content {
+    gap: 60px;
+  }
+
+  .expanded-subcontent {
+    width: 100%;
+  }
+
+  .programs-wrapper {
+    gap: 0;
+  }
 }
