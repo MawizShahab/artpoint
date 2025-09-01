@@ -688,9 +688,10 @@ li.social a img {
     justify-content: unset;
   }
 
-  .cards-container .card {
+ .cards-container .card {
     padding: 22px;
-    width: 390px !important;
+    width: 360px !important;
+    justify-content: space-around;
     /* height: 845px; */
   }
 
